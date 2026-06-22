@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "@/app/globals.css";
 import { StateContextProvider } from "@/context/stateContext";
 
 const geistSans = Geist({
@@ -16,7 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "To Do List",
   description: "a way to improve yourselgf",
+  viewport: "width=device-width, initial-scale=1",
 };
+
 
 export default function RootLayout({
   children,
