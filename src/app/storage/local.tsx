@@ -1,4 +1,4 @@
-import { TodoList } from "@/components/AddInput";
+import { TodoList } from "../types/todo";
 
 const STORAGE_KEY = "list";
 
